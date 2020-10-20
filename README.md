@@ -1,25 +1,30 @@
 - Origin of Property Registration
+
 Property registration is the process by which you register the documents related to a property of yours with legal entities. For instance, when you purchase a flat directly from a builder, property registration gives you the right to legally own, use or dispose of the property. When you have a legal ownership title over a property, there is a low likelihood of fraud or misappropriation. 
 	
 - Need for Property Registration
+
 Property registration is required to maintain the ownership of land/property deeds. There are many reasons to get your property registered:
  • Avoid conflicts: Proper property registration helps individuals avoid conflicts arising from land disputes.
  • Maintain ownership: Property registration also helps to identify the rightful owner of a property.
  • Comply with legal processes: Many legal processes require individuals to furnish proper land deeds and documentation.
 
 - Solution Using Blockchain
+
 Blockchain is an immutable distributed ledger that is shared with everyone present on a network. Every participant interacts with the blockchain using a public-private cryptographic key combination. Moreover, the records stored on the blockchain are immutable, making them very hard to tamper with, thus providing better security. A solution like Hyperledger Fabric also offers the features to maintain users and roles, which additionally help secure and identify owners. 
 	 
 The government can utilise the feature set of a blockchain to reduce the difficulties faced in the traditional property registration process. A distributed ledger can be set up among the buyer, seller, bank, registration authority and notary. Property details can be stored in and accessed from the blockchain, and these details are immutable, meaning they cannot be altered by anybody.
 	 
- 1. Stakeholders of the Network
+1. Stakeholders of the Network
+
 There are two stakeholders involved in this case study: Users and Registrar. 
 	 
 1.1. Users are the people who wish to sell/buy the properties registered on this network. They need to be explicitly registered on the network to be able to buy/sell the properties registered on it.
 	 
 1.2. Let’s take a look at Registrar now. In a traditional property registration system, a registrar is the record keeper who facilitates, monitors and validates all property or land transactions. In this problem statement, the registrar has multiple roles. For example, if a user wishes to register himself/herself on the system, then the registrar must validate the identity of the user before adding them to the system. Talking of another use case, suppose a user wishes to register their property on the network. They would first raise a request to the registrar who, in turn, will register the property on the ledger after validation.
 	 
- 2. Logical Flow
+2. Logical Flow
+
 The entire flow of this case study can be divided into three parts:
  2.1. User Registration
  2.2. Property Registration
